@@ -13,8 +13,27 @@ body, p, a, span, strong {
   max-width: 680px;
 }
 
+.header-gradient-green {
+  background-image: linear-gradient(120deg, #0BBB28 0%, #37E655 50%, #0BBB28 100%);
+  background-color: transparent;
+}
+
 .bg-gradient-blue {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-color: transparent;
+}
+
+.bg-gradient-green {
+  background-image: linear-gradient(120deg, #37E655 0%, #0BBB28 100%);
+  background-color: transparent;
+}
+
+
+/* Text */
+.text-app-title {
+  font-size: 42px;
+}
+.text-app-subtitle {
+  font-size: 30px;
 }
 
