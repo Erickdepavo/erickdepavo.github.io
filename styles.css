@@ -4,12 +4,17 @@ $theme-colors: (
   "danger": #FF3B30
 );*/
 
+body, p, a, span, strong {
+  font-size: 16px;
+}
+
 .limit {
   width: auto;
   max-width: 680px;
-};
+}
 
 .bg-gradient-blue {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-color: transparent;
-};
+}
+
