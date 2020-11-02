@@ -8,6 +8,16 @@ body, p, a, span, strong {
   max-width: 680px;
 }
 
+.limit-small {
+  width: auto;
+  max-width: 590px;
+}
+
+.limit-mini {
+  width: auto;
+  max-width: 472px;
+}
+
 .header-gradient-green {
   background-image: linear-gradient(120deg, #0BBB28 0%, #37E655 50%, #0BBB28 100%);
   background-color: transparent;
@@ -37,10 +47,23 @@ body, p, a, span, strong {
   font-size: 30px;
 }
 
-.text-taxcon {
-  color: #00337F;
+.text-promo-title {
+  font-size: 32px;
 }
-.text-phonewidget {
+.text-promo-subtitle {
+  font-size: 20px;
+}
+
+.text-blue-taxcon {
+  color: #144D9F;
+}
+.text-blue-taxcon:hover {
+  color: #144D9F;
+}
+.text-green-phonewidget {
+  color: #0BBB28;
+}
+.text-green-phonewidget:hover {
   color: #0BBB28;
 }
 
